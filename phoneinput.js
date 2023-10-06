@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
     let phoneInputs = document.querySelectorAll('input[data-tel-input]');
- 
+
     let getInputNumbersValue = function(input){
         return input.replace(/\D/g, "");
     }
